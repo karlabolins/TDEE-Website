@@ -1,0 +1,155 @@
+body {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width:100%;
+}
+
+.jumbotron{
+    width:100%;
+    height:70vh;
+    margin:auto;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0)), url("img/jumbotron.jpg");
+    background-size: cover;
+    margin-top:0;
+    position: relative;
+}
+
+.jumbotron2{
+
+    background-image:linear-gradient(to right,rgba(85, 78, 78, 0.8), rgba(32, 34, 134, 0.5));
+    width: 100%;
+
+}
+
+.inputSection {
+    display:flex;
+    justify-content: space-around;
+}
+
+.jumbotron h1, .jumbotron h2 {
+    width: 40%;
+    margin-top:0;
+    margin-left: 50px;
+    color: white;
+    display: flex;
+    align-self: flex-start;
+    
+    position: absolute;
+    top:30%;
+}
+
+.jumbotron h1 {
+    top:30%;
+}
+
+.jumbotron h2 {
+    top: 40%;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.tdeeCalculator h2{
+    margin-top:0;
+    margin-bottom:0;
+    padding-top: 20px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.inputField {
+    margin: 10px;
+}
+
+.tdeeCalculator h2{
+    text-align: center;
+}
+
+.tdeeResult{
+    justify-content: center;
+}
+
+label {
+    font-size: 110%;
+}
+
+.button, .button2, .button3 {
+    background-color: #4CAF50; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.button2 {
+    margin: 20px 20px;
+  }
+
+#buttonSection {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+#fitnessButtons {
+    background-image:linear-gradient(to right,rgba(85, 78, 78, 0.8), rgba(32, 34, 134, 0.5));
+    width: 100%;
+}
+
+#infoBox {
+    width: 70%;
+    margin:auto;
+}
+
+#infoBox p, #infoBox h2, #mealAnnounce{
+    font-size: 175%;
+    text-align: center;
+
+}
+
+#mealAnnounce{
+    margin-bottom:0;
+    padding-bottom:30px;
+}
+
+.greenText{
+    color: green;
+    font-size: 300%;
+}
+
+.orangeText{
+    color: orange;
+    font-size: 150%;
+}
+
+#mealNumber .inputField {
+    width: 30%;
+    margin:auto;
+}
+
+#mealBox {
+    margin-top: 30px;
+}

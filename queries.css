@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1200px){
+    #buttonSection {
+        padding-top:5px;
+      }
+}
+
+@media only screen and (max-width: 1023px){
+.jumbotron h2 {
+    top: 45%;
+}
+
+
+#buttonSection{
+    padding-top:0;
+}
+}
+
+@media only screen and (max-width: 769px){
+
+.jumbotron h1{ 
+    top: 15%;
+    width: 100%;
+    margin-left: 20px;   
+}
+
+
+.jumbotron h2{ 
+    top: 50%;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.inputSection {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#tdeeSection{
+    margin: auto;
+}
+
+#buttonSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:0;
+  }
+
+
+#mealNumber .inputField{
+     width:50%;
+}
+
+#mealBox{
+    margin-top: 0px;
+}
+}
+
+@media only screen and (max-width: 480px){
+
+.jumbotron h1{ 
+    top: 15%;
+    width: 80%;
+    margin-left: 20px;
+
+}
+
+.jumbotron h2{ 
+    top: 45%;
+    width: 80%;
+    margin-left: 20px;
+}
+
+body{
+    font-size: 80%;
+}
+
+.tdeeCalculator h2{
+    font-size: 90%;
+}
+}
